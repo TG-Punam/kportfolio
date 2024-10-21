@@ -1,0 +1,26 @@
+<!-- <p>era-list works!</p> -->
+
+
+<!-- app.component.html -->
+
+<!-- app.component.html -->
+
+<!-- app.component.html -->
+
+<div>
+    <h1>{{ playerCivilization.name }} - {{ playerCivilization.era }} Era</h1>
+    <div>
+      <h2>Resources</h2>
+      <p>Gold: {{ playerResources.gold }}</p>
+      <p>Wood: {{ playerResources.wood }}</p>
+      <p>Stone: {{ playerResources.stone }}</p>
+    </div>
+    <div>
+      <h2>Actions</h2>
+      <button (click)="buildBuilding('House')">Build House</button>
+      <button (click)="buildBuilding('Farm')">Build Farm</button>
+      <button (click)="travelThroughTime('Medieval')">Travel to Medieval Era</button>
+    </div>
+  </div>
+  
+  

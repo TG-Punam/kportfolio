@@ -1,0 +1,128 @@
+/* projects.component.css
+
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    max-width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.project-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.project-card h3 {
+    font-size: 1.5em;
+}
+
+.project-card p {
+    margin-bottom: 15px;
+}
+
+.project-card a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project-card a:hover {
+    background-color: #0056b3;
+} */
+
+
+
+
+
+
+.my-projects {
+    background: linear-gradient(to right, rgb(182, 182, 244), rgb(242, 242, 198), rgb(210, 210, 249));
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    max-width: 65%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+.my-projects h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.desc {
+    /* background: linear-gradient(to right, rgb(182, 182, 244), rgb(242, 242, 198), rgb(210, 210, 249)); */
+    background: linear-gradient(to right, gray, pink, gray);
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+}
+
+.desc:hover {
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    transform: rotateY(10deg) translateZ(10px) scale(1.1);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.desc p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+.desc h4 a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+.desc h4 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.heroSection {
+    /* background: linear-gradient(to right, rgb(182, 182, 244), rgb(242, 242, 198), rgb(210, 210, 249)); */
+    background: linear-gradient(to right, gray, pink, gray);
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+}
+
+.heroSection:hover {
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    transform: rotateY(10deg) translateZ(10px) scale(1.1);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.heroSection h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.heroSection h3 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 17px;
+}

@@ -1,0 +1,141 @@
+/* home.component.css
+
+.home-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .intro {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .skills,
+  .experience {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  li {
+    margin: 5px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  li:hover {
+    background-color: #0056b3;
+  }
+   */
+
+
+
+   /* home.component.css */
+
+.home-container {
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .skills h2 {
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold;   
+  }
+
+   .skills h2:hover {
+    text-decoration: underline;
+   }
+
+  .experience h2 {
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold;  
+}
+
+.experience p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+  .intro {
+    /* font-family:'Times New Roman', Times, serif; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+    font-size:medium;
+  }
+  
+  .intro,
+  .skills,
+  .experience {
+    background: linear-gradient(to right, rgb(182, 182, 244), rgb(242, 242, 198), rgb(210, 210, 249));
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  li {
+    margin: 5px;
+    padding: 6px 12px;
+    background-color: black;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    transition: background-color 0.3s;
+  }
+  
+  li:hover {
+    background-color: #0056b3;
+  }
+  
+  .three-container {
+    margin: 20px 0;
+  }
+  
+  .profile {
+    width: 100%;
+    height: 400px;
+    /* justify-content: center;
+    align-items: center; */
+    text-align: center;
+    margin: o auto;
+    /* background: linear-gradient(blue, yellow); */
+    background: linear-gradient(to right, rgb(182, 182, 244), rgb(242, 242, 198), rgb(210, 210, 249));
+    padding: 3%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home-bgimg {
+    width: 100%;
+    height: 320px;
+    border-radius: 25px;
+  }

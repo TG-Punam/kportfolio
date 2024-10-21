@@ -1,0 +1,59 @@
+/* h1 {
+    color: red;
+    font-weight: 100;
+} */
+
+
+.nav-home {
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-project {
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.portfolio-title {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.nav-project2 {
+    cursor: pointer;
+}
+
+.nav-contactus {
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-aboutus {
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+
+:root {
+  --bg-color: #eaeaea;
+  --color-green: #4bbc54;
+  --color-blue: #1cacf4;
+  --box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #fff;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+
